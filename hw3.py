@@ -43,26 +43,3 @@ if __name__ == "__main__":
          
         
       
-      
-  
-
-# def log_info(message):
-#     print(f"{colorama.Fore.BLUE} [INFO] {Fore.RESET} {message}")
-
-# def log_warning(message):
-#     print(f"{Fore.YELLOW} [WARNING] {Fore.RESET} {message}")
-
-# def log_error(message):
-#     print(f"{Fore.RED} [ERROR] {Fore.RESET} {message}")
-
-# try:
-#         entries = sorted(Path(path).iterdir(), key=lambda e: (not e.is_dir(), e.name))
-#     except FileNotFoundError:
-#         print(colorama.Fore.RED + f"Error: Directory '{path}' not found.")
-#         return
-#     except NotADirectoryError:
-#         print(colorama.Fore.RED + f"Error: Path '{path}' is not a directory.")
-#         return
-#     except PermissionError:
-#         print(colorama.Fore.RED + f"Error: Permission denied for directory '{path}'.")
-#         return
